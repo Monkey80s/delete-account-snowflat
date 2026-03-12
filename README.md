@@ -39,3 +39,45 @@ Este proyecto está bajo la licencia [GPLv2](LICENSE).
 ## 👨‍💻 Autor
 
 Desarrollado por **monkey**.
+
+
+# Q2A Delete My Account (SnowFlat Compatible)
+
+*(🇪🇸 [Leer en español](README-es.md))*
+
+A modern and visually striking plugin for **Question2Answer (Q2A)** that adds an account deletion button directly to the user's profile page.
+
+## ⚖️ Why this is necessary (Data Privacy Regulations)
+
+In today's web, allowing users to delete their own account is not just a good User Experience (UX) practice, but a **legal obligation** in many jurisdictions. This plugin helps your Q2A forum comply with the strictest privacy regulations:
+
+* **GDPR (General Data Protection Regulation - Europe):** Article 17 establishes the **"Right to Erasure"** (Right to be Forgotten). Users have the absolute right to request the deletion of their personal data without undue delay. Forcing a user to contact an administrator via email to delete their account is considered an unnecessary obstacle; there must be a direct and accessible mechanism.
+* **CCPA (California Consumer Privacy Act):** Grants consumers the right to request the deletion of personal information that a business has collected about them.
+* **Data Protection Laws in Latin America:** Countries like Colombia (Law 1581 of 2012), Mexico (LFPDPPP), and Argentina (Law 25.326) have similar principles where the data subject has the right to the deletion of their data from databases at any time.
+
+**Keeping accounts of users who no longer wish to be on your platform increases your liability and risk in the event of possible security breaches. This plugin automates compliance with these regulations.**
+
+## ✨ Features
+
+* **Legal Compliance:** Facilitates the "Right to be Forgotten" for your users.
+* **Warning Design:** Includes a "caution tape" style frame (yellow and black) to prevent accidental clicks.
+* **Prominent Button:** Stylized button with a Cyan/Magenta gradient for high visibility.
+* **Double Confirmation:** Uses a JavaScript modal window to ensure the deletion is intentional, as the action is irreversible.
+* **SnowFlat Compatible:** Designed to integrate seamlessly as a layer in the SnowFlat theme and its derivatives.
+* **Modern Structure:** Uses `metadata.json` to define the version and load order (`after_db_init`).
+
+## 🛠️ Installation
+
+1. Download the `.zip` file from this repository or clone it.
+2. Extract the folder and rename it to `delete-account-snowflat`.
+3. Upload the folder to the `qa-plugin/` directory of your Question2Answer installation.
+4. Go to the **Admin > Plugins** section on your Q2A website and verify that the plugin appears in the list.
+5. Done! Users will now see the "Danger Zone" box on their account page (`/account`).
+
+## 📝 License
+
+This project is licensed under the [GPLv2](LICENSE) license.
+
+## 👨‍💻 Author
+
+Developed by **monkey**.
