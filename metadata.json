@@ -1,8 +1,13 @@
 {
-    "Name": "Delete My Account",
-    "Description": "Adds a modern delete account button with confirmation modal on the account page.",
-    "Author": "monkey",
-    "Version": "1.0",
-    "License": "GPLv2",
-    "Load Order": "after_db_init"
+    "name": "Eliminar Mi Cuenta (Compatible con SnowFlat)",
+    "uri": "https://routters.vip",
+    "description": "Agrega un botón moderno para eliminar la cuenta con un modal de confirmación en la página de ajustes del usuario.",
+    "version": "1.0.0",
+    "date": "2026-03-12",
+    "author": "Monkey–🐒",
+    "author_uri": "https://routters.vip",
+    "license": "GPLv2",
+    "min_q2a": "1.7.0",
+    "min_php": "5.4.0",
+    "load_order": "after_db_init"
 }
