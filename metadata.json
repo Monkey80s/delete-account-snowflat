@@ -1,0 +1,8 @@
+{
+    "Name": "Delete My Account",
+    "Description": "Adds a modern delete account button with confirmation modal on the account page.",
+    "Author": "monkey",
+    "Version": "1.0",
+    "License": "GPLv2",
+    "Load Order": "after_db_init"
+}
